@@ -1,7 +1,7 @@
 thisdict = {
-    "egg" : ["kidney,5000,rotting"],
-    "potato" : ["potato,10,rotting"],
-    "mouse" : ["mouse,1,possibly edible"] }
+    "egg" : [f"kidney,{5000},rotting"],
+    "potato" : [f"potato,{10},rotting"],
+    "mouse" : [f"mouse,{1},possibly edible"] }
 y = []
 while True:
     action = input("What do you want to do")
