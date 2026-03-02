@@ -1,5 +1,5 @@
 thisdict = {
-    "egg" : [f"kidney,{5000},rotting"],
+    "egg" : [f"egg,{5000},rotting"],
     "potato" : [f"potato,{10},rotting"],
     "mouse" : [f"mouse,{1},possibly edible"] }
 y = []
@@ -13,4 +13,5 @@ while True:
         print(y)
     if action == "end":
         print(y)
+        
         break
