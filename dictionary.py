@@ -1,13 +1,24 @@
-thisdict = {
-    "egg" : [f"egg,{5000},rotting"],
-    "potato" : [f"potato,{10},rotting"],
-    "mouse" : [f"mouse,{1},possibly edible"] }
+egg = {
+    "name" : "egg",
+    "cost" : 5000,
+    "quality" : "rotting"
+}
+potato = {
+    "name" : "potato",
+    "cost" : 10,
+    "quality" : "rotting"
+}
+mouse = {
+    "name" : "mouse",
+    "cost": 1,
+    "quality" : "possibly edible"
+}
 y = []
 while True:
     action = input("What do you want to do")
     if action == "shop":
         x = input("We have egg, potato, and mouse")
-        print(thisdict[x])
+        print(x)
         y.append(x)
     if action == "see cart":
         print(y)
