@@ -14,6 +14,7 @@ mouse = {
     "quality" : "possibly edible"
 }
 y = []
+cost = 0
 while True:
     action = input("What do you want to do")
     if action == "shop":
