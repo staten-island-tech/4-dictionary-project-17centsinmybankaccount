@@ -12,11 +12,6 @@ def directory(doctor):
         if doctor in y:
             print(x)
             staff.append(f"{doctor}, is in {x}")
-        else:
-            z = input("This person is not in the direcotry. Would you like to add him or her?")
-            if z.upper == "YES":
-                z2
-
 
     print(staff)
 directory(x)
