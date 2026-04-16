@@ -21,16 +21,16 @@ items = [egg, potato, mouse]
 y = []
 
 while True:
-    action = input("What do you want to do: ").lower()
+    action = input("What do you want to do: ")
 
     if action == "shop":
-        x = input("We have egg, potato, and mouse: ").lower()
+        x = input("We have egg, potato, and mouse: ")
 
         found = False
         for item in items:
             if item["name"] == x:
                 y.append(item)
-                print(f"{x} added to cart.")
+                print(x)
                 found = True
                 break
 
