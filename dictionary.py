@@ -22,7 +22,6 @@ while True:
     if action == "shop":
         x = input("We have egg, potato, and mouse: ")
         if x == "Egg":
-            print(egg['name'])
             y.append(x)
         if x == "Potato":
             y.append(x)

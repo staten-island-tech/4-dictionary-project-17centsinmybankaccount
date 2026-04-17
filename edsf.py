@@ -26,7 +26,6 @@ while True:
     if action == "shop":
         x = input("We have egg, potato, and mouse: ")
 
-        found = False
         for item in items:
             if item["name"] == x:
                 y.append(item)
@@ -34,7 +33,7 @@ while True:
                 found = True
                 break
 
-        if not found:
+        if found == False:
             print("This item is misspelled or not in inventory.")
 
     elif action == "see cart":
